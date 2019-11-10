@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/qwerty"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/alegreya_sans_sc_thin"
+        android:text="Lexica"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+
+        android:layout_width="241dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/mybutton"
+        android:ellipsize="middle"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="conTest"
+        android:shadowColor="#00D61F1F"
+        android:text="Contrast Test"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="241dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/mybutton"
+        android:ellipsize="middle"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="allCons"
+        android:shadowColor="#00D61F1F"
+        android:text="All Contrasts"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="241dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/mybutton"
+        android:ellipsize="middle"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="allFonts"
+        android:shadowColor="#00D61F1F"
+        android:text="All Fonts"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="241dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/mybutton"
+        android:ellipsize="middle"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="fontTest"
+        android:shadowColor="#00D61F1F"
+        android:text="Font Test"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+</android.support.constraint.ConstraintLayout>

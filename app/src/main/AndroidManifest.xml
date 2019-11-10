@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dyfonts">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="DyFonts"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".DoneActivityContrast" />
+        <activity android:name=".InstructionContrast" />
+        <activity android:name=".doneActivity" />
+        <activity android:name=".timesActivity" />
+        <activity android:name=".sansActivity" />
+        <activity android:name=".serifActivity" />
+        <activity android:name=".monospaceActivity" />
+        <activity android:name=".CourierActivity" />
+        <activity android:name=".CursiveActivity" />
+        <activity android:name=".CasualActivity" />
+        <activity android:name=".ArialActivity" />
+        <activity android:name=".VerdanaActivity" />
+        <activity android:name=".InstructionsActivity" />
+        <activity android:name=".AllFonts" />
+        <activity android:name=".WbActivity" />
+        <activity android:name=".WblActivity" />
+        <activity android:name=".AllContrasts" />
+        <activity android:name=".BblActivity" />
+        <activity android:name=".BoActivity" />
+        <activity android:name=".BgActivity" />
+        <activity android:name=".BwActivity" />
+        <activity android:name=".BrActivity" />
+        <activity android:name=".RgActivity" />
+        <activity android:name=".WgActivity" />
+        <activity android:name=".WrActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
